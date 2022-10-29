@@ -1,9 +1,11 @@
+import { Layout } from './components/Layout'
 import { AppRoutes } from './routes'
+import './styles/global.css'
 
 export function App() {
   return (
-    <div>
+    <Layout>
       <AppRoutes />
-    </div>
+    </Layout>
   )
 }
