@@ -7,9 +7,9 @@ type LayoutProps = {
 
 export function Layout({ children }: LayoutProps) {
   return (
-    <div className="bg-slate-100 flex flex-col h-screen items-center justify-between w-screen">
+    <div className="bg-slate-100 flex flex-col h-full items-center justify-between w-screen">
       <Header />
-      <main className="h-full w-full">{children}</main>
+      <main className="p-4 h-full w-full">{children}</main>
       <div>FOOTER</div>
     </div>
   )
